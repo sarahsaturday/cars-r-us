@@ -1,0 +1,82 @@
+/* Global styling */
+
+/* Add some padding and a background color to the body */
+body {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+/* Add some margin to paragraphs within articles */
+article p {
+  margin-bottom: 10px;
+}
+
+/* Set up the main container */
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Style the heading elements */
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add spacing between the logo and text */
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Style the options sections */
+.options {
+  margin-bottom: 20px;
+}
+
+/* Style the order item */
+.order-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-item .diamond {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+/* Style the place order button */
+#saveOrder {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#saveOrder:hover {
+  background-color: #45a049;
+}
+
+/* Style the custom orders section */
+.custom-orders {
+  margin-top: 20px;
+}
