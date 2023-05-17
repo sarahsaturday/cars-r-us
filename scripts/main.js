@@ -1,6 +1,6 @@
 import { SeatOptions } from './SeatOptions.js';
 import { PaintOptions } from './PaintOptions.js';
-import { TechOptions } from './TechOptions.js';
+import { GadgetOptions } from './GadgetOptions.js';
 import { WheelOptions } from './WheelOptions.js';
 import { placeOrder } from './Button.js';
 import { generateOrderListHTML } from './OrderList.js';
@@ -8,7 +8,7 @@ import { generateOrderListHTML } from './OrderList.js';
 const render = async () => {
   const seatOptionsHTML = await SeatOptions();
   const paintOptionsHTML = await PaintOptions();
-  const techOptionsHTML = await TechOptions();
+  const gadgetOptionsHTML = await GadgetOptions();
   const wheelOptionsHTML = await WheelOptions();
   const buttonHTML = await placeOrder();
   const orderListHTML = await generateOrderListHTML();
@@ -28,7 +28,7 @@ const render = async () => {
       </section>
 
       <section class="choices__tech options">
-        ${techOptionsHTML}
+        ${gadgetOptionsHTML}
       </section>
 
       <section class="choices__wheels options">

@@ -43,7 +43,7 @@
       "price": 250
     }
   ],
-  "techs": [
+  "gadgets": [
     {
       "id": 1,
       "package": "Basic Package",
@@ -91,9 +91,16 @@
     {
       "paintId": 3,
       "seatId": 3,
-      "techId": 3,
+      "gadgetId": 3,
       "wheelId": 3,
       "id": 1
+    },
+    {
+      "paintId": 2,
+      "seatId": 2,
+      "gadgetId": 2,
+      "wheelId": 2,
+      "id": 2
     }
   ]
 }

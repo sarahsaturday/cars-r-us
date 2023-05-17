@@ -2,7 +2,7 @@
 const transientState = {
     "paintId": 0,
     "seatId": 0,
-    "techId": 0,
+    "gadgetId": 0,
     "wheelId": 0
   };
   
@@ -17,8 +17,8 @@ const transientState = {
     console.log(transientState);
   };
   
-  export const setTechId = (chosenTech) => {
-    transientState.techId = parseInt(chosenTech);
+  export const setGadgetId = (chosenGadget) => {
+    transientState.gadgetId = parseInt(chosenGadget);
     console.log(transientState);
   };
   
